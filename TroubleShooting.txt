@@ -1,0 +1,13 @@
+Err 1
+Git PullRequest job failed. Couldn't find any revision to build. 
+Verify the repository and branch configuration for this job.
+>> rename the main branch to master branch using gitHub or leave the jenkins Git 
+branch detials blank
+
+Err 2
+TASK [Start the container] *****************************************************
+fatal: [172.31.23.233]: FAILED! => {"changed": false, "msg": "Error pulling image timjar3/pubrepo1:{env.BUILD_NUMBER} 
+- 400 Client Error: Bad Request (\"{\"message\":\"invalid tag format\"}\")"}
+
+>>  this should be in double inverted columns  IN jenkins file
+"-e BUILD_NUMBER=${env.BUILD_NUMBER}" 
