@@ -3,9 +3,9 @@
 
 Tools Used:
 
-GIT and GIT-HUB
-Jenkins
-MAVEN (Plugin)
-ANSIBLE 
-DOCKER
+GIT and GIT-HUB | 
+Jenkins |
+MAVEN (Plugin) |
+ANSIBLE |
+DOCKER |
 AWS - EC2
