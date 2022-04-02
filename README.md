@@ -8,4 +8,13 @@ Jenkins |
 MAVEN (Plugin) |
 ANSIBLE |
 DOCKER |
+
+Cloud Provider
+
 AWS - EC2
+
+Other Tools:
+
+Microsoft VS Code |
+GIT Bash |
+Oracle Virtual Box |
