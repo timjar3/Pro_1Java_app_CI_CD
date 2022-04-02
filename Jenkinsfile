@@ -76,5 +76,5 @@ pipeline{
 		      steps{ansiblePlaybook credentialsId: 'Centi_slave', disableHostKeyChecking: true, extras: "-e BUILD_NUMBER=${env.BUILD_NUMBER}", installation: 'ansbile', inventory: 'webserver.inv', playbook: 'JentoDocPlybk.yml'
 	    }
 	  }
-      }
+    }
 }
