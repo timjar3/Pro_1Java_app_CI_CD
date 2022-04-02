@@ -1,4 +1,3 @@
-
 pipeline{
     tools{
         jdk 'Java_Home'
