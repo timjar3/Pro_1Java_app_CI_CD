@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning..'
-                 git 'https://github.com/timjar3/DevOpsClassCodes.git'
+                 git 'https://github.com/timjar3/Pro_1Java_app_CI_CD.git'
               }
           }
           stage('Compile'){
